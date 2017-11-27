@@ -7,7 +7,7 @@ module counter_B(input clk, reset, output reg [3:0] count);
         first_logical = reset | (count == 10);
         second_logical = (count <= 10);
 
-        if(first_logical) count <= 0;
+        if(reset) count <= 0;
         else if (second_logical) begin
             count <= count + 1;
         end//counting
