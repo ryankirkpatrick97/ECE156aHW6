@@ -1,0 +1,18 @@
+# //  ModelSim SE 10.3c Jul 18 2014 Linux 2.6.32-696.16.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project HW6
+# Compile of coinSensor.v was successful.
+# Compile of piggyBank.v was successful.
+# Compile of purchaseManager.v was successful.
+# Compile of segment_decoder_7bit.v was successful.
+# Compile of sevenSegDispMngr.v was successful.
+# Compile of vendingMachine.v was successful.
+# Compile of vendingMachine_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
