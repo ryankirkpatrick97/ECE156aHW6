@@ -1,17 +1,19 @@
 
-module counter_B(input clk, reset, output reg [3:0] count);
+module counter_B(clk, reset, count);
+    input clk, reset;
+    output reg [3:0] count;
 
-    reg logic1, logic2;
-
-    always @(posedge clk, posedge reset) begin
-        logic1 = reset | (count == 10);
-        logic2 = (count <= 10);
-        if(logic1) count = 0;
-        else begin
-            if (logic2) begin
-                count = count + 1;
+    always @ (posedge clk)
+    begin
+        if (reset)begin
+            count <= 4'h0;
+        end else begin
+            if (count < 4'ha) begin
+                count <= count + 1;
+            end else begin
+                count <= 4'h0;
             end
-        end//counting
-    end//always
+        end
+    end
 
 endmodule
