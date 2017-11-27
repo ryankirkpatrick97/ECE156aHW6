@@ -1,7 +1,7 @@
 
 class rand_input;
     //Coins
-    rand bit [10] coin;
+    rand bit [9:0] coin;
     constraint coinc{
         coin dist{
         745, 755 := 2, //penny
@@ -12,7 +12,7 @@ class rand_input;
     };
     }
     //Other Variables
-    rand bit [2] product;
+    rand bit [1:0] product;
     constraint productc{
         product dist{
         0 := 25,
@@ -51,10 +51,6 @@ covergroup vendcovergroup @(clk);
         bins one = {1};
     }
     QUARTER: coverpoint vendingMachine.piggyBank.quarter{
-        bins zero = {0};
-        bins one = {1};
-    }
-    APPLE: coverpoint vendingMachine.piggyBank.apple{
         bins zero = {0};
         bins one = {1};
     }
