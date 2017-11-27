@@ -1,1 +1,57 @@
+/fs/student/ryankirkpatrick/classes/ece156a/HW6/counter_B.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/counter_B.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module counter_B
 
+Top level modules:
+	counter_B
+
+} {} {}} /fs/student/ryankirkpatrick/classes/ece156a/HW6/segment_decoder_7bit.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/segment_decoder_7bit.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module segment_decoder_7bit
+
+Top level modules:
+	segment_decoder_7bit
+
+} {} {}} /fs/student/ryankirkpatrick/classes/ece156a/HW6/vendingMachine_tb.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/vendingMachine_tb.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module vendingMachine_tb
+
+Top level modules:
+	vendingMachine_tb
+
+} {} {}} /fs/student/ryankirkpatrick/classes/ece156a/HW6/purchaseManager.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/purchaseManager.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module purchaseManager
+
+Top level modules:
+	purchaseManager
+
+} {} {}} /fs/student/ryankirkpatrick/classes/ece156a/HW6/coinSensor.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/coinSensor.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module coinSensor
+
+Top level modules:
+	coinSensor
+
+} {} {}} /fs/student/ryankirkpatrick/classes/ece156a/HW6/piggyBank.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/piggyBank.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module piggyBank
+
+Top level modules:
+	piggyBank
+
+} {} {}} /fs/student/ryankirkpatrick/classes/ece156a/HW6/sevenSegDispMngr.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/sevenSegDispMngr.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module sevenSegDispMngr
+
+Top level modules:
+	sevenSegDispMngr
+
+} {} {}} /fs/student/ryankirkpatrick/classes/ece156a/HW6/vendingMachine.v {1 {vlog -work work -vopt -stats=none /fs/student/ryankirkpatrick/classes/ece156a/HW6/vendingMachine.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 18 2014
+-- Compiling module vendingMachine
+
+Top level modules:
+	vendingMachine
+
+} {} {}}
