@@ -38,44 +38,44 @@ module vendingMachine_svtb();
 vendingMachine UUT(clk, reset, serialIn, enable, buy, product, digit1, digit0);
 
 covergroup vendcovergroup @(clk);
-    PENNY: coverpoint vendingMachine.piggyBank.penny{
+    PENNY: coverpoint UUT.penny{
         bins zero = {0};
         bins one = {1};
     }
-    NICKEL: coverpoint vendingMachine.piggyBank.nickel{
+    NICKEL: coverpoint UUT.nickel{
         bins zero = {0};
         bins one = {1};
     }
-    DIME: coverpoint vendingMachine.piggyBank.dime{
+    DIME: coverpoint UUT.dime{
         bins zero = {0};
         bins one = {1};
     }
-    QUARTER: coverpoint vendingMachine.piggyBank.quarter{
+    QUARTER: coverpoint UUT.quarter{
         bins zero = {0};
         bins one = {1};
     }
-    APPLE: coverpoint vendingMachine.piggyBank.apple{
+    APPLE: coverpoint UUT.apple{
         bins zero = {0};
         bins one = {1};
     }
-    BANANA: coverpoint vendingMachine.piggyBank.banana{
+    BANANA: coverpoint UUT.banana{
         bins zero = {0};
         bins one = {1};
     }
-    CARROT: coverpoint vendingMachine.piggyBank.carrot{
+    CARROT: coverpoint UUT.carrot{
         bins zero = {0};
         bins one = {1};
     }
-    DATE: coverpoint vendingMachine.piggyBank.date{
+    DATE: coverpoint UUT.date{
         bins zero = {0};
         bins one = {1};
     }
-    ERROR: coverpoint vendingMachine.piggyBank.error{
+    ERROR: coverpoint UUT.error{
         bins zero = {0};
         bins one = {1};
     }
 
-    CREDIT: coverpoint vendingMachine.piggyBank.credit{
+    CREDIT: coverpoint UUT.credit{
         bins range1 = {0,4};
         bins range2 = {5,9};
         bins range3 = {10,24};
