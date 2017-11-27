@@ -15,5 +15,8 @@ initial begin
     #7.5
     reset = 0;
 
+    #120
+    reset = 1;
+
 end
 endmodule

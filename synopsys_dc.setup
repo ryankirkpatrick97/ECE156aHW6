@@ -1,0 +1,5 @@
+set search_path [concat [list] $search_path]
+set link_library /ece/synopsys/synthesis/J-2014.09-SP2/libraries/syn/class.db
+set target_library /ece/synopsys/synthesis/J-2014.09-SP2/libraries/syn/class.db
+set symbol_library /ece/synopsys/synthesis/J-2014.09-SP2/libraries/syn/class.sdb
+define_design_lib work -path work
