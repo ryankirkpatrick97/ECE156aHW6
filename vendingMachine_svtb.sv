@@ -4,11 +4,11 @@ class rand_input;
     rand bit [9:0] coin;
     constraint coinc{
         coin dist{
-        745, 755 := 2, //penny
-        830, 840 := 2, //nickel
-        700, 710 := 2, //dime
-        950, 960 := 2, //quarter
-        123, 216 := 2 //noncoin
+        745, 755 := 30, //penny
+        830, 840 := 30, //nickel
+        700, 710 := 20, //dime
+        950, 960 := 15, //quarter
+        123, 216 := 05 //noncoin
     };
     }
     //Other Variables
@@ -23,7 +23,7 @@ class rand_input;
     }
 
     rand bit reset;
-    constraint rc{ reset dist{0 :=95, 1:= 5};}
+    constraint rc{ reset dist{0 :=80, 1:= 20};}
 
 endclass
 
