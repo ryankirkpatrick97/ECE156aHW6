@@ -8,7 +8,7 @@ module coinSensor(clk, reset, serialIn, write, penny, nickle, dime, quarter);
 
 	//every clock edge when write is high, read in new signal
 	//also set outputs to low at these times
-	//when write is low, find coin size 
+	//when write is low, find coin size
 
 	always @ (posedge clk) begin
 			penny   = 0;
@@ -18,7 +18,7 @@ module coinSensor(clk, reset, serialIn, write, penny, nickle, dime, quarter);
 		if (reset == 1) begin
 			currentCoin = 0;
 			previousWrite = 0;
-			
+
 		end //reset high
 		else if (reset == 0 && write == 1) begin
 			//shift register to add onto currentCoin
