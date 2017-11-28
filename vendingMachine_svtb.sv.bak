@@ -118,6 +118,7 @@ initial begin
 
         #40
         buy = 1;
+	$display(UUT.credit);
         #15
         buy = 0;
     end //forever

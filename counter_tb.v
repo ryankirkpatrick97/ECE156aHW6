@@ -4,6 +4,7 @@ module counter_tb();
 reg clk, reset;
 wire [3:0] countB, countS, countM;
 wire miterOut;
+
     counter_B cb(clk, reset, countB);
     counter_S cs(clk, reset, countS);
 
@@ -20,7 +21,7 @@ initial begin
     #7.5
     reset = 0;
 
-    #120
+    #150
     reset = 1;
 
 end
